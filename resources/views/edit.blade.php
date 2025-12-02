@@ -222,7 +222,7 @@
             })
 
             $(document).on('click', '.addRow', function() {
-                let maxRow = 5;
+                let maxRow = 4;
                 let rowCount = $('.rowItem').length;
                 if (rowCount < maxRow) {
                     let html = `
